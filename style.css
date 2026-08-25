@@ -1,0 +1,47 @@
+body {
+    background-color: lightblue;
+}
+
+form {
+    width: 400px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    padding: 8px;
+    background-color: lightgreen;
+    color: black;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+}
+
+select {
+    padding: 8px;
+}
+
+input,
+textarea {
+    box-sizing: border-box;
+}
